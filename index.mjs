@@ -1,1 +1,1 @@
-export { A, b } from './index.js';
+export { A, B } from './index.js';
