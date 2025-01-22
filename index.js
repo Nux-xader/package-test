@@ -1,3 +1,7 @@
-const A = 1
+const A = 1;
+const B = 2;
 
-export default A;
+export  {
+    A,
+    B
+};
