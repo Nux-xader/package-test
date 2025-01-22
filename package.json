@@ -2,6 +2,7 @@
   "name": "test-package",
   "version": "1.0.0",
   "description": "testting package",
+  "type": "module",
   "main": "index.js",
   "exports": {
     ".": {
