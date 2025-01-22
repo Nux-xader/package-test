@@ -1,12 +1,30 @@
 {
   "name": "test-package",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "description": "testting package",
   "main": "index.js",
+  "exports": {
+    ".": {
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nux-xader/package-test.git"
+  },
+  "keywords": [
+    "test",
+    "test-package"
+  ],
+  "author": "Satria ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nux-xader/package-test/issues"
+  },
+  "homepage": "https://github.com/Nux-xader/package-test#readme"
 }
